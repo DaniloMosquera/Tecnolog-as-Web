@@ -1,0 +1,28 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    padding: 10px;
+    background: linear-gradient(cadetblue,aquamarine);
+}
+
+.principal {
+    background-color: aliceblue;
+    padding: 15px;
+    border-radius: 10px;
+    border-color: blue;
+    border-style: dashed;
+}
+
+@media (max-width:800px) {
+    .principal {
+        font-size: large;
+    }
+}
+
+@media (max-width:600px) {
+    .principal {
+        font-size: x-large;
+    }
+}
